@@ -15,7 +15,7 @@ loginForm.addEventListener("submit", (e) => {
     let user = checkLogin(account,users)
     
     if(user != null){
-        window.location.href = 'index.html'
+        window.location.href = 'homepage.html'
     }
 })
 function checkLogin(account, users) {

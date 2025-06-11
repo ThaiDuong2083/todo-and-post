@@ -20,7 +20,7 @@ registerForm.addEventListener("submit", (e) => {
     if (user == true) {
         users.push(account)
         localStorage.setItem("users", JSON.stringify(users))
-        window.location.href = 'login.html'
+        window.location.href = 'index.html'
     }
 })
 function checkRegister(account, users) {
