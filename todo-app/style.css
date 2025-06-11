@@ -1,0 +1,24 @@
+.content{
+    width: 50%;
+}
+.nav-tab-custom{
+    width: 100%;
+}
+.nav-link, a span{
+    color: black;
+}
+.nav-item{
+    flex-basis: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-underline{
+    --bs-nav-underline-link-active-color: blue;
+}
+.delete-all-btn{
+    text-align: right;
+}
+
+.fa-lg{
+    cursor: pointer;
+}

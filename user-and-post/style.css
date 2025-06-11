@@ -1,0 +1,31 @@
+.content{
+    width: 70%;
+}
+.nav-tab-custom{
+    width: 100%;
+}
+.nav-link, a span{
+    color: black;
+}
+.nav-item{
+    flex-basis: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-underline{
+    --bs-nav-underline-link-active-color: blue;
+}
+.delete-all-btn{
+    text-align: right;
+}
+
+.fa-lg, .page-item{
+    cursor: pointer;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.modal-dialog{
+    max-width: 70%;
+}
